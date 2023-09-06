@@ -19,7 +19,7 @@ export default function Home() {
         <div class=" flex flex-wrap">
           <div class=" w-full md:w-1/2 p-4">
             <div class=" p-4">
-              <p className='intro-hey'>Hey, I’m Vee! </p>
+              <p className='intro-hey not-italic font-semibold text-xl'>Hey, I’m Vee! </p>
 
               <h2 class="into-pixel text-xl font-semibold">Pixel perfectionistwith a UX/UI playbook.</h2>
               <Image className='mt-8 mb-12' src={line} />
