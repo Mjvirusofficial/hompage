@@ -1,0 +1,18 @@
+.case{
+font-family: Lato;
+font-size: 50px;
+font-weight: 900;
+line-height: 74px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+.fromP{
+font-family: Lato;
+font-size: 25px;
+font-weight: 400;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: center;
+color: #54688A;
+}
