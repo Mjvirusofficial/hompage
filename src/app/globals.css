@@ -1,6 +1,9 @@
+@import url('/node_modules/bootstrap/dist/css/bootstrap-grid.min.css');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -16,7 +19,7 @@
   }
 }
 
-body {
+/* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -24,4 +27,77 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+} */
+
+
+.mobile-menu {
+  display: none;
 }
+
+.mobile-menu.open {
+  display: block;
+}
+
+
+.into-pixel {
+  font-family: Lato;
+  font-size: 41px;
+  font-weight: 400;
+  line-height: 58px;
+  letter-spacing: -0.01em;
+  text-align: left;
+
+  font-family: Lato;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 58px;
+  letter-spacing: -0.01em;
+  text-align: left;
+
+  font-family: Lato;
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 74px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  font-family: Lato;
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 74px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  font-family: Lato;
+  font-size: 41px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: -0.01em;
+  text-align: left;
+}
+
+.intro-hey{
+  /* width: 528px; */
+  height: 100px ;
+  top: 260px ;
+  left: 120px;
+}
+
+.lay{
+  /* width: 528px; */
+height: 259px;
+top: 260px;
+left: 120px;
+
+}
+
+.tail{
+  font-family: Lato;
+font-size: 25px;
+font-weight: 400;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: left;
+color: #54688A;
+}
+
