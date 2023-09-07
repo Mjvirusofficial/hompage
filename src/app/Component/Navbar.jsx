@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import lg1 from '../image/Fill-1.png'
 import lg2 from '../image/Fill-4.png'
-import lin from '../image/Linkedin - 3 1.png'
+import lin from '../image/linkdln.png'
 import dis from '../image/Dribbble - 2 1.png'
 
 

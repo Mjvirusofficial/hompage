@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Navbar from './Component/Navbar'
-import vas from './image/Vasile-glitch 1.png'
+import vas from './image/Vasile.png'
 import line from './image/Line 1.png'
 import work from './image/work.png'
 import right from './image/Icon Right.png'
