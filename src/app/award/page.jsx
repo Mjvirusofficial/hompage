@@ -11,7 +11,10 @@ export const metadata = {
 function award() {
   return (
     <div>
-    <Navbar/>
+<div className="m-8">
+       <Navbar/>
+       </div>       
+        
         <Awards/>
     <Footer/>
     </div>

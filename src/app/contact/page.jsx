@@ -11,8 +11,9 @@ export const metadata = {
 function contact() {
   return (
     <div>
-        <Navbar/>
-
+<div className="m-8">
+       <Navbar/>
+       </div>
         <Contact/>
 
         <Footer/>

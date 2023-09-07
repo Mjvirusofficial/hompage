@@ -11,7 +11,9 @@ export const metadata = {
 function work() {
   return (
     <div>
-        <Navbar/>
+       <div className="m-8">
+       <Navbar/>
+       </div>
         <Work/>
         <Footer/>
     </div>

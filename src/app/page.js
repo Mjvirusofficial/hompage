@@ -10,6 +10,7 @@ import Work from './Component/Work'
 import Awards from './Component/Awards'
 import Contact from './Component/Contact'
 import Footer from './Component/Footer'
+import Link from 'next/link'
 
 
 export const metadata = {
@@ -36,8 +37,12 @@ export default function Home() {
               <p className=' tail'>Tailoring web & mobile magic</p>
               <p className='tail'> for the industry’s best.</p>
               <div className="mt-12 flex">
-                <Image className='cursor-pointer' alt='img' src={work} />
-                <Image className='ml-6 cursor-pointer' alt='img' src={right} />
+               <Link href={'/work'}>
+               <Image className='cursor-pointer'  alt='img' src={work} />
+               </Link>
+               <Link href={'/contact'}>
+               <Image className='ml-6 cursor-pointer' alt='img' src={right} />
+               </Link>
 
               </div>
             </div>
