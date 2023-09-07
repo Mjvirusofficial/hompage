@@ -34,9 +34,9 @@ export default function Home() {
 
               <h2 className="mpix into-pixel text-xl font-semibold">Pixel perfectionist with a UX/UI playbook.</h2>
               <Image className='mt-8 mb-12' src={line} alt='img' />
-              <p className='mtail tail'>Tailoring web & mobile magic</p>
+              <p className='mmar mtail tail'>Tailoring web & mobile magic</p>
               <p className='mtail tail'> for the industry’s best.</p>
-              <div className="mt-12 flex">
+              <div className="mmar2 mt-12 flex">
                <Link href={'/work'}>
                <Image className='cursor-pointer'  alt='img' src={work} />
                </Link>

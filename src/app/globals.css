@@ -188,9 +188,15 @@ input{
     margin-top:-50px;
   }
   .mtail{
-    font-size: 17px;
+    font-size: 3.1vh;
+  }
+  .mmar{
+    margin-top:-40px;
   }
   .msize{
-    height: 45px;
+    height: 40px;
+  }
+  .mmar2{
+    margin-top:8px;
   }
 }
