@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
 // import footer from '../image/Footer 39 (1).png'
-import Link from 'next/link'
 import lg1 from '../image/Fill-1.png'
 import lg2 from '../image/Fill-4.png'
 import f3 from '../image/f3.png'
