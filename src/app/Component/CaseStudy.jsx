@@ -66,7 +66,7 @@ function CaseStudy() {
 
 <div class=" flex flex-wrap">
         <div class=" w-full md:w-1/2 p-4">
-            <Image className='mt-8 mb-12' src={yellow} />
+            <Image alt='img' className='mt-8 mb-12' src={yellow} />
         </div>
 
 
@@ -74,9 +74,9 @@ function CaseStudy() {
           <div className="layout1">
             <p className='ml-1 heycoll'>Scholarships.com</p>
             <p className='ml-1 text-bold'>Education</p>
-            <Image className=' mt-4' src={line} />
+            <Image alt='img' className=' mt-4' src={line} />
             <p className='ml-1 heypro '>With a dated design and escalating bounce rates, Scholarhips.com turned to me for a comprehensive brand and website redesign aimed at improving user experience.</p>
-            <Image className='ml-1 mt-8 mb-12 cursor-pointer' src={study} />
+            <Image alt='img' className='ml-1 mt-8 mb-12 cursor-pointer' src={study} />
 
           </div>
         </div>
