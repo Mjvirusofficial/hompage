@@ -21,30 +21,41 @@ function Contact() {
       </div>
 
 
-      <div class="flex flex-wrap">
-        <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/2 p-4">
+      <div className="flex flex-wrap">
+        <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/2 p-4">
           <div className="p-4">
             <Image alt='img' src={contact} />
           </div>
 
         </div>
 
-        <div class="w-full  sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/2 p-4">
+        <div className="w-full  sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/2 p-4">
           <div className="box p-14">
-            <div class="mb-4">
-              <input type="text" id="name" name="name" class="w-full border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:border-blue-400" placeholder="Fullname" />
+            <div className="mb-4">
+              <input type="text" id="name" name="name" className="w-full border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:border-blue-400 focus:ring focus:ring-blue-300 focus:outline-none transition duration-300" placeholder="Fullname" />
+            </div>
+
+            <div className="mb-4">
+              <input type="email" id="name" name="name" className="w-full border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:border-blue-400 focus:ring focus:ring-blue-300 focus:outline-none transition duration-300" placeholder="Email" />
             </div>
 
             <div class="mb-4">
-              <input type="email" id="name" name="name" class="w-full border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:border-blue-400" placeholder="Email" />
+                    {/* <label for="message" class="block text-gray-700 font-semibold">Message</label> */} 
+                    <textarea style={{
+                      fontFamily:'lato'
+                    }} id="message" placeholder='What design adventure can I join you on?' name="message" rows="4" className="w-full px-4 py-2 border rounded-lg focus:ring focus:ring-blue-300 focus:outline-none transition duration-300"></textarea>
             </div>
 
-            <div class="mb-4 ">
-              <input type="email" id="name" name="name" class="mess w-full border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:border-blue-400" placeholder="What design adventure can I join you on?" />
-            </div>
-            <div class="mb-4 ">
+           
+
+
+             
+
+
+
+            <div className="mb-4 ">
               <div className="place-content-center">
-                <div class="cursor-pointer mt=2 flex items-center justify-center">
+                <div className="cursor-pointer mt=2 flex items-center justify-center">
                   <Image alt='img' className='' src={send} />
                 </div>
               </div>            </div>

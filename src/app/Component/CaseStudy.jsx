@@ -18,21 +18,21 @@ function CaseStudy() {
         <p className='fromP'>From Pixels to People: Showcasing My Holistic Design Approach.</p>
       </div>
 
-      <div class=" flex flex-wrap">
-        <div class=" w-full md:w-1/2 p-4">
-          <div class=" p-4">
-            <Image className='mt-8 mb-12' src={blue} />
+      <div className=" flex flex-wrap">
+        <div className=" w-full md:w-1/2 p-4">
+          <div className=" p-4">
+            <Image alt='img' className='mt-8 mb-12' src={blue} />
           </div>
         </div>
 
 
-        <div class="  w-full md:w-1/2 p-4">
+        <div className="  w-full md:w-1/2 p-4">
           <div className="layout1">
             <p className='ml-1 heycoll'>Heycollab</p>
             <p className='ml-1 text-bold'>SaaS</p>
-            <Image className=' mt-4' src={line} />
+            <Image alt='img' className=' mt-4' src={line} />
             <p className='ml-1 heypro '>Heycollab: A productivity powerhouse fine-tuned to transform tasks into triumphs. They sought my expertise to stand out in a crowded marketplace.</p>
-            <Image className='ml-1 mt-8 mb-12 cursor-pointer' src={study} />
+            <Image alt='img' className='ml-1 mt-8 mb-12 cursor-pointer' src={study} />
 
           </div>
         </div>
@@ -40,23 +40,23 @@ function CaseStudy() {
 
 
 {/* 2nd */}
-<div class=" flex flex-wrap">
-        <div class=" w-full md:w-1/2 p-4">
-          <div class=" p-4">
+<div className=" flex flex-wrap">
+        <div className=" w-full md:w-1/2 p-4">
+          <div className=" p-4">
           <div className="layout1">
             <p className='ml-1 heycoll'>Halcyon</p>
             <p className='ml-1 text-bold'>Fintech</p>
-            <Image className=' mt-4' src={line} />
+            <Image alt='img' className=' mt-4' src={line} />
             <p className='ml-1 heypro '>Halcyon: A fintech innovator streamlining the financial realm. They enlisted my expertise to morph their platform into a real-time data dashboard, turning advisor metrics into revenue magic.</p>
-            <Image className='ml-1 mt-8 mb-12 cursor-pointer' src={study} />
+            <Image alt='img' className='ml-1 mt-8 mb-12 cursor-pointer' src={study} />
 
           </div>
           </div>
         </div>
 
 
-        <div class="  w-full md:w-1/2 p-4">
-        <Image className='mt-8 mb-12' src={green} />
+        <div className="  w-full md:w-1/2 p-4">
+        <Image alt='img' className='mt-8 mb-12' src={green} />
 
         </div>
 
@@ -64,13 +64,13 @@ function CaseStudy() {
 
 {/* 3rd */}
 
-<div class=" flex flex-wrap">
-        <div class=" w-full md:w-1/2 p-4">
+<div className=" flex flex-wrap">
+        <div className=" w-full md:w-1/2 p-4">
             <Image alt='img' className='mt-8 mb-12' src={yellow} />
         </div>
 
 
-        <div class="w-full md:w-1/2 p-4">
+        <div className="w-full md:w-1/2 p-4">
           <div className="layout1">
             <p className='ml-1 heycoll'>Scholarships.com</p>
             <p className='ml-1 text-bold'>Education</p>

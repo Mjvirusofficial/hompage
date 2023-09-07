@@ -13,6 +13,7 @@ import Footer from './Component/Footer'
 
 
 export default function Home() {
+
   return (
     <div className='m-8'>
       <nav >
@@ -20,12 +21,12 @@ export default function Home() {
       </nav>
 
       <div className="mt-12 intro">
-        <div class=" flex flex-wrap">
-          <div class=" w-full md:w-1/2 p-4">
-            <div class=" p-4">
+        <div className=" flex flex-wrap">
+          <div className=" w-full md:w-1/2 p-4">
+            <div className=" p-4">
               <p className='intro-hey not-italic font-semibold text-xl'>Hey, I’m Vee! </p>
 
-              <h2 class="into-pixel text-xl font-semibold">Pixel perfectionistwith a UX/UI playbook.</h2>
+              <h2 className="into-pixel text-xl font-semibold">Pixel perfectionistwith a UX/UI playbook.</h2>
               <Image className='mt-8 mb-12' src={line} alt='img' />
               <p className=' tail'>Tailoring web & mobile magic</p>
               <p className='tail'> for the industry’s best.</p>
@@ -36,13 +37,13 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div class="w-full md:w-1/2 p-4">
-            <div class="p-4">
+          <div className="w-full md:w-1/2 p-4">
+            <div className="p-4">
               <Image src={vas} alt='img'/>
             </div>
           </div>
         </div>
-        <div class="mt-5 flex justify-center items-center ">
+        <div className="mt-5 flex justify-center items-center ">
           <Image className='' alt='img' src={fame3} />
         </div>
       </div>
