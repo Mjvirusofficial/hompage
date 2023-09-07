@@ -88,10 +88,10 @@ const Navbar = () => {
               <Link href="/">
                 <p className="text-black font-bold ">ABOUT</p>
               </Link>
-              <Link href="/about">
+              <Link href="/work">
                 <p className="text-black font-bold ">WORKS</p>
               </Link>
-              <Link href="/services">
+              <Link href="/award">
                 <p className="text-black font-bold">AWARDS</p>
               </Link>
               <Link href="/contact">
