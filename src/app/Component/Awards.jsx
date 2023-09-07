@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import './CSS/Work.css'
-import line from './image/Line1.png'
 import awards from '../image/award.png'
+import line from '../image/bl.png'
 
 function Awards() {
     return (

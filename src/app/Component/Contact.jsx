@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import './CSS/Work.css'
-import line from '../image/Line 1.png'
+import line from '../image/bl.png'
 import contact from '../image/w.png'
 import send from '../image/s.png'
 function Contact() {

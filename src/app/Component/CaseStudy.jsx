@@ -2,7 +2,7 @@ import React from 'react'
 import './CSS/CaseStudy.css'
 import blue from '../image/more.png'
 import Image from 'next/image';
-import line from './image/Line1.png'
+import line from '../image/bl.png'
 import study from '../image/study.png'
 import green from '../image/img2.png'
 import yellow from '../image/img3.png'

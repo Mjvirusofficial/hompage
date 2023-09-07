@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import './CSS/Work.css'
-import line from './image/Line1.png'
+import line from '../image/bl.png'
 import work2 from '../image/work2.png'
 
 function Work() {
