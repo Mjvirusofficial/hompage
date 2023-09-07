@@ -188,15 +188,58 @@ input{
     margin-top:-50px;
   }
   .mtail{
-    font-size: 3.1vh;
+    font-size: 2.5vh;
   }
   .mmar{
     margin-top:-40px;
   }
   .msize{
-    height: 40px;
+    height: 44px;
   }
   .mmar2{
     margin-top:8px;
+  }
+  .mheycol{
+    margin-top:-300px;
+  }
+  .mheycol2{
+    margin-left:-18px;
+  }
+  #mtext{
+    margin-right: 10px;
+  }
+  /* .mbox{
+    font-family: Lato;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 250px;
+    margin: -25px;
+   } */
+
+   .box{
+    background: #ECF1FA;
+    /* width: 589px; */
+    height: 350px;
+    /* top: 6595px; */
+    left: 731px;
+    border-radius: 20px;
+    padding: 19px;
+    
+  }
+
+  input{
+    font-family: Lato;
+    font-size: 17px;
+    /* font-weight: 400; */
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .m1{
+    font-size: 6px;
   }
 }

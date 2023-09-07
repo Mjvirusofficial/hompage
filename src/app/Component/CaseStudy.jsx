@@ -26,12 +26,12 @@ function CaseStudy() {
         </div>
 
 
-        <div className="  w-full md:w-1/2 p-4">
+        <div className="mheycol  w-full md:w-1/2 p-4">
           <div className="layout1">
             <p className='ml-1 heycoll'>Heycollab</p>
             <p className='ml-1 text-bold'>SaaS</p>
             <Image alt='img' className=' mt-4' src={line} />
-            <p className='ml-1 heypro '>Heycollab: A productivity powerhouse fine-tuned to transform tasks into triumphs. They sought my expertise to stand out in a crowded marketplace.</p>
+            <p id='mtext'  className='ml-1 heypro '>Heycollab: A productivity powerhouse fine-tuned to transform tasks into triumphs. They sought my expertise to stand out in a crowded marketplace.</p>
             <Image alt='img' className='ml-1 mt-8 mb-12 cursor-pointer' src={study} />
 
           </div>
@@ -40,14 +40,14 @@ function CaseStudy() {
 
 
 {/* 2nd */}
-<div className=" flex flex-wrap">
+<div className="mheycol mheycol2 flex flex-wrap">
         <div className=" w-full md:w-1/2 p-4">
           <div className=" p-4">
           <div className="layout1">
             <p className='ml-1 heycoll'>Halcyon</p>
             <p className='ml-1 text-bold'>Fintech</p>
             <Image alt='img' className=' mt-4' src={line} />
-            <p className='ml-1 heypro '>Halcyon: A fintech innovator streamlining the financial realm. They enlisted my expertise to morph their platform into a real-time data dashboard, turning advisor metrics into revenue magic.</p>
+            <p id='mtext'  className='mtext ml-1 heypro '>Halcyon: A fintech innovator streamlining the financial realm. They enlisted my expertise to morph their platform into a real-time data dashboard, turning advisor metrics into revenue magic.</p>
             <Image alt='img' className='ml-1 mt-8 mb-12 cursor-pointer' src={study} />
 
           </div>
@@ -70,12 +70,12 @@ function CaseStudy() {
         </div>
 
 
-        <div className="w-full md:w-1/2 p-4">
+        <div className=" mheycol w-full md:w-1/2 p-4">
           <div className="layout1">
             <p className='ml-1 heycoll'>Scholarships.com</p>
             <p className='ml-1 text-bold'>Education</p>
             <Image alt='img' className=' mt-4' src={line} />
-            <p className='ml-1 heypro '>With a dated design and escalating bounce rates, Scholarhips.com turned to me for a comprehensive brand and website redesign aimed at improving user experience.</p>
+            <p id='mtext' className=' ml-1 heypro '>With a dated design and escalating bounce rates, Scholarhips.com turned to me for a comprehensive brand and website redesign aimed at improving user experience.</p>
             <Image alt='img' className='ml-1 mt-8 mb-12 cursor-pointer' src={study} />
 
           </div>

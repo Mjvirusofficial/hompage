@@ -11,7 +11,7 @@ function Footer() {
      
 
       <div className="grid grid-cols-3 gap-4 flex justify-between items-center ">
-        <div className="md:ml-20 p-4">
+        <div className="md:ml-20 p-4 m1">
         <p>© 2023 Vasile.Design — Pixel Perfectionist</p>
         </div>
         <div className="flex md:ml-20  p-4">

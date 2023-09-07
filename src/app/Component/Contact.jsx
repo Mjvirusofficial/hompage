@@ -29,10 +29,10 @@ function Contact() {
 
         </div>
 
-        <div className="w-full  sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/2 p-4">
-          <div className="box p-14">
-            <div className="mb-4">
-              <input type="text" id="name" name="name" className="w-full border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:border-blue-400 focus:ring focus:ring-blue-300 focus:outline-none transition duration-300" placeholder="Fullname" />
+        <div className="w-full   sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/2 p-4">
+          <div className="box mbox    p-14">
+            <div className=" mb-4">
+              <input type="text" id="name" name="name" className=" w-full border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:border-blue-400 focus:ring focus:ring-blue-300 focus:outline-none transition duration-300" placeholder="Fullname" />
             </div>
 
             <div className="mb-4">
