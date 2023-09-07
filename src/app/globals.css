@@ -101,3 +101,78 @@ text-align: left;
 color: #54688A;
 }
 
+.reel{
+  color: #54688A;
+  font-family: Lato;
+font-size: 25px;
+font-weight: 400;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.con{
+  background-color: #ECF1FA;
+  width: 589px;
+height: 478px;
+top: 6595px;
+left: 731px;
+border-radius: 20px;
+
+}
+
+.textlay{
+  width: 498px;
+height: 187px;
+top: 783px;
+left: 777px;
+border-radius: 10px;
+border: 1px;
+}
+
+input ::placeholder{
+  font-family: Lato;
+font-size: 17px;
+font-weight: 400;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.mess{
+  /* width: 498px; */
+height: 200px;
+top: 6783px;
+left: 777px;
+border-radius: 10px;
+border: 1px;
+
+}
+
+
+
+
+
+
+.box{
+  background: #ECF1FA;
+  /* width: 589px; */
+  /* height: 478px; */
+  top: 6595px;
+  left: 731px;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+
+
+input{
+  font-family: Lato;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+

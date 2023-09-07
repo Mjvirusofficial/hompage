@@ -6,6 +6,10 @@ import work from './image/work.png'
 import right from './image/Icon Right.png'
 import fame3 from './image/Frame 3.png'
 import CaseStudy from './Component/CaseStudy'
+import Work from './Component/Work'
+import Awards from './Component/Awards'
+import Contact from './Component/Contact'
+import Footer from './Component/Footer'
 
 
 export default function Home() {
@@ -42,8 +46,20 @@ export default function Home() {
           <Image className='' alt='img' src={fame3} />
         </div>
       </div>
-                 {/* Case studies */}
-<CaseStudy/>
+      {/* Case studies */}
+      <CaseStudy />
+
+      {/* Work */}
+      <Work />
+
+      {/* Awards */}
+      <Awards />
+
+      {/* Contact */}
+      <Contact />
+
+      {/* Footer */}
+      <Footer/>
     </div>
   )
 }
