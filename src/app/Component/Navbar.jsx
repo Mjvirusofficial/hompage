@@ -24,17 +24,17 @@ const Navbar = () => {
           <div className="flex justify-between items-center">
             <Link className='flex' href="/">
               {/* <p className=" font-bold text-xl">Your Logo</p> */}
-              <Image src={lg1} height={'61.81px'} width={'361px'} />
-              <Image src={lg2} height={'61.81px'} width={'361px'} />
+              <Image alt='img' src={lg1} height={'61.81px'} width={'361px'} />
+              <Image alt='img' src={lg2} height={'61.81px'} width={'361px'} />
               <div className="ml-5 logo2 flex justify-between items-center ">
                 <Link className='ml-3 flex justify-between items-center' href="/">
-                  <Image src={lin} height={0.1} width={25} />
+                  <Image alt='img' src={lin} height={0.1} width={25} />
 
                   <p className="ml-3 text-black">Linkedln</p>
                 </Link>
 
                 <Link className='ml-3 flex justify-between items-center' href="/">
-                  <Image src={dis} height={0.1} width={25} />
+                  <Image alt='img' src={dis} height={0.1} width={25} />
 
                   <p className="ml-3 text-black ">Disribble</p>
                 </Link>

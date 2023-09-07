@@ -11,7 +11,7 @@ function Work() {
                 <p className='text-center'>Work</p>
                 <div className="place-content-center">
                     <div class=" flex items-center justify-center">
-                        <Image className='' src={line} />
+                        <Image alt='img' className='' src={line} />
                     </div>
                 </div>
 
@@ -22,7 +22,7 @@ function Work() {
             </div>
 
             <div class="w-full h-auto text-center">
-            <Image className='w-full max-w-screen-lg mx-auto' src={work2} />
+            <Image alt='img' className='w-full max-w-screen-lg mx-auto' src={work2} />
 
         {/* <img class="w-full max-w-screen-lg mx-auto" src="your-image.jpg" alt="Your Image Description"/> */}
     </div>

@@ -33,10 +33,10 @@ function Footer() {
         </div>
         <div class="flex md:ml-20  p-4">
         <Image className='sm:ml-20'  src={lg1} height={'61.81px'} width={'361px'} />
-        <Image src={lg2} height={'61.81px'} width={'361px'} />
+        <Image alt='img' src={lg2} height={'61.81px'} width={'361px'} />
         </div>
         <div class="md:ml-20 p-4">
-        <Image src={f3} height={'61.81px'} width={'361px'} />
+        <Image alt='img' src={f3} height={'61.81px'} width={'361px'} />
         </div>
       </div>
 

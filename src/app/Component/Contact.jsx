@@ -11,7 +11,7 @@ function Contact() {
         <p className='text-center'>Contact</p>
         <div className="place-content-center">
           <div class=" flex items-center justify-center">
-            <Image className='' src={line} />
+            <Image alt='img' className='' src={line} />
           </div>
         </div>
 
@@ -24,7 +24,7 @@ function Contact() {
       <div class="flex flex-wrap">
         <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/2 p-4">
           <div className="p-4">
-            <Image src={contact} />
+            <Image alt='img' src={contact} />
           </div>
 
         </div>
@@ -45,7 +45,7 @@ function Contact() {
             <div class="mb-4 ">
               <div className="place-content-center">
                 <div class="cursor-pointer mt=2 flex items-center justify-center">
-                  <Image className='' src={send} />
+                  <Image alt='img' className='' src={send} />
                 </div>
               </div>            </div>
           </div>
