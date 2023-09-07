@@ -11,7 +11,7 @@ export const metadata = {
 function award() {
   return (
     <div>
-<div className="m-8">
+<div className="mnav m-8">
        <Navbar/>
        </div>       
         

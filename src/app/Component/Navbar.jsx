@@ -19,7 +19,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className=" p-4">
+    <nav className="mnav p-4">
       <div className=" container mx-auto">
         <div className="flex justify-between items-center">
           <Link className='flex' href="/">

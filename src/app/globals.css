@@ -242,4 +242,7 @@ input{
   .m1{
     font-size: 6px;
   }
+  .mnav{
+    margin: 0px;
+  }
 }
