@@ -32,7 +32,7 @@ export default function Home() {
             <div className=" p-4">
               <p className='intro-hey not-italic font-semibold text-xl'>Hey, I’m Vee! </p>
 
-              <h2 className="into-pixel text-xl font-semibold">Pixel perfectionistwith a UX/UI playbook.</h2>
+              <h2 className="mpix into-pixel text-xl font-semibold">Pixel perfectionist with a UX/UI playbook.</h2>
               <Image className='mt-8 mb-12' src={line} alt='img' />
               <p className=' tail'>Tailoring web & mobile magic</p>
               <p className='tail'> for the industry’s best.</p>

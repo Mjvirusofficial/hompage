@@ -176,3 +176,11 @@ input{
   text-align: left;
 }
 
+@media (max-width : 560px){
+  .ld{
+    visibility: hidden;
+  }
+  .mpix{
+    font-size: 40px;
+  }
+}
