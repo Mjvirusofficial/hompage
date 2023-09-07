@@ -30,18 +30,18 @@ export default function Home() {
         <div className=" flex flex-wrap">
           <div className=" w-full md:w-1/2 p-4">
             <div className=" p-4">
-              <p className='intro-hey not-italic font-semibold text-xl'>Hey, I’m Vee! </p>
+              <p className='intro-hey not-italic font-semibold text-xl mhey'>Hey, I’m Vee! </p>
 
               <h2 className="mpix into-pixel text-xl font-semibold">Pixel perfectionist with a UX/UI playbook.</h2>
               <Image className='mt-8 mb-12' src={line} alt='img' />
-              <p className=' tail'>Tailoring web & mobile magic</p>
-              <p className='tail'> for the industry’s best.</p>
+              <p className='mtail tail'>Tailoring web & mobile magic</p>
+              <p className='mtail tail'> for the industry’s best.</p>
               <div className="mt-12 flex">
                <Link href={'/work'}>
                <Image className='cursor-pointer'  alt='img' src={work} />
                </Link>
                <Link href={'/contact'}>
-               <Image className='ml-6 cursor-pointer' alt='img' src={right} />
+               <Image className='msize ml-6 cursor-pointer' alt='img' src={right} />
                </Link>
 
               </div>
