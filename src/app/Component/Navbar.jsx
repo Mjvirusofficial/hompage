@@ -10,6 +10,9 @@ import dis from '../image/d.png'
 
 
 
+// export default Navbar;
+
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
