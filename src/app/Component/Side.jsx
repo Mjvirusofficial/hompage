@@ -95,7 +95,7 @@ const Navbar = () => {
             <div class="responsivearea  ">
               <div class="responsiveinner ">
                 <div class="logomobile">
-                  <Link className='flex  flex justify-between items-center' href="http://vasiledesign.stepforadder.co">
+                  <Link className='flex  flex justify-between items-center' href="/">
                     <Image alt='img' src={lg1} height={50} width={80} />
                     <Image alt='img' src={lg2} height={50} width={80} />
                   </Link>
