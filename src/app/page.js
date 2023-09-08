@@ -24,7 +24,8 @@ export default function Home() {
   return (
     <div className='mnav m-8'>
       <nav >
-        <Navbar />
+      <Side/>
+        {/* <Navbar /> */}
       </nav>
 
       <div className="mt-12 intro">

@@ -76,77 +76,77 @@
   text-align: left;
 }
 
-.intro-hey{
+.intro-hey {
   /* width: 528px; */
-  height: 100px ;
-  top: 260px ;
+  height: 100px;
+  top: 260px;
   left: 120px;
 }
 
-.lay{
+.lay {
   /* width: 528px; */
-height: 259px;
-top: 260px;
-left: 120px;
+  height: 259px;
+  top: 260px;
+  left: 120px;
 
 }
 
-.tail{
+.tail {
   font-family: Lato;
-font-size: 25px;
-font-weight: 400;
-line-height: 35px;
-letter-spacing: 0em;
-text-align: left;
-color: #54688A;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #54688A;
 }
 
-.reel{
+.reel {
   color: #54688A;
   font-family: Lato;
-font-size: 25px;
-font-weight: 400;
-line-height: 35px;
-letter-spacing: 0em;
-text-align: center;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: center;
 
 }
 
-.con{
+.con {
   background-color: #ECF1FA;
   width: 589px;
-height: 478px;
-top: 6595px;
-left: 731px;
-border-radius: 20px;
+  height: 478px;
+  top: 6595px;
+  left: 731px;
+  border-radius: 20px;
 
 }
 
-.textlay{
+.textlay {
   width: 498px;
-height: 187px;
-top: 783px;
-left: 777px;
-border-radius: 10px;
-border: 1px;
+  height: 187px;
+  top: 783px;
+  left: 777px;
+  border-radius: 10px;
+  border: 1px;
 }
 
-input ::placeholder{
+input ::placeholder {
   font-family: Lato;
-font-size: 17px;
-font-weight: 400;
-line-height: 35px;
-letter-spacing: 0em;
-text-align: left;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
-.mess{
+.mess {
   /* width: 498px; */
-height: 200px;
-top: 6783px;
-left: 777px;
-border-radius: 10px;
-border: 1px;
+  height: 200px;
+  top: 6783px;
+  left: 777px;
+  border-radius: 10px;
+  border: 1px;
 
 }
 
@@ -155,7 +155,7 @@ border: 1px;
 
 
 
-.box{
+.box {
   background: #ECF1FA;
   /* width: 589px; */
   height: 535px;
@@ -167,7 +167,7 @@ border: 1px;
 
 
 
-input{
+input {
   font-family: Lato;
   font-size: 17px;
   font-weight: 400;
@@ -176,38 +176,48 @@ input{
   text-align: left;
 }
 
-@media (max-width : 560px){
-  .ld{
+@media (max-width : 560px) {
+  .ld {
     visibility: hidden;
   }
-  .mpix{
-    margin-top:-50px;
+
+  .mpix {
+    margin-top: -50px;
     font-size: 36px;
   }
-  .mhey{
-    margin-top:-50px;
+
+  .mhey {
+    margin-top: -50px;
   }
-  .mtail{
+
+  .mtail {
     font-size: 2.5vh;
   }
-  .mmar{
-    margin-top:-40px;
+
+  .mmar {
+    margin-top: -40px;
   }
-  .msize{
+
+  .msize {
     height: 52px;
   }
-  .mmar2{
-    margin-top:8px;
+
+  .mmar2 {
+    margin-top: 8px;
   }
-  .mheycol{
-    margin-top:-300px;
+
+  .mheycol {
+    margin-top: -300px;
   }
-  .mheycol2{
-    margin-left:-18px;
+
+  .mheycol2 {
+    margin-left: -18px;
   }
-  #mtext{
+
+  #mtext {
     margin-right: 10px;
   }
+
   /* .mbox{
     font-family: Lato;
     font-size: 17px;
@@ -219,7 +229,7 @@ input{
     margin: -25px;
    } */
 
-   .box{
+  .box {
     background: #ECF1FA;
     /* width: 589px; */
     height: 362px;
@@ -227,10 +237,10 @@ input{
     left: 731px;
     border-radius: 20px;
     padding: 19px;
-    
+
   }
 
-  input{
+  input {
     font-family: Lato;
     font-size: 17px;
     /* font-weight: 400; */
@@ -239,10 +249,119 @@ input{
     text-align: left;
   }
 
-  .m1{
+  .m1 {
     font-size: 6px;
   }
-  .mnav{
+
+  .mnav {
     margin: 0px;
   }
 }
+
+/*--Responsive CSS--*/
+
+@media screen and (max-width: 768px) {
+  .menuarea {
+    display: none;
+  }
+
+  .topmenuicon {
+    display: block;
+  }
+
+  .logomobile {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+  }
+
+  .mobiemenu ul {
+    list-style: none;
+  }
+
+  .mobiemenu ul li {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24pxx;
+    padding: 0 0px 15px 0;
+  }
+
+  .mobiemenu ul li a {
+    float: left;
+    width: 100%;
+    text-decoration: none;
+    color: #000;
+  }
+
+  .footerarea {
+    float: left;
+    width: 100%;
+    margin: 70px 0 50px 0;
+    padding: 0 15px 0 19px;
+  }
+
+  .social_area a {
+    padding: 0 0px 0 0px;
+  }
+}
+
+/* @media screen and (max-width: 360px) {
+  .headerarea {
+    float: left;
+    width: 100%;
+    margin: 40px 0 40px 0;
+  }
+
+  .logo {
+    float: left;
+    width: 40px;
+    height: 40px;
+    padding: 5px 0 0 0;
+  }
+
+  .logomenu ul li {
+    display: inline-block;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
+
+  .topmenuicon {
+    float: right;
+    cursor: pointer;
+    margin: 0 0 0 0;
+  }
+
+  .logomenu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0px 0px 0px 10px;
+  }
+
+} */
+
+.responsivearea.in {
+  left: 0%;
+}
+
+.responsivearea {
+  /* position: fixed; */
+  top: 0;
+  width: 80%;
+  height: 100%;
+  background-color: #f3f3f3;
+  z-index: 1000;
+  left: -80%;
+  transition: all 0.3s ease-in;
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+/* .mview{
+  margin-left:-50px-;
+} */
