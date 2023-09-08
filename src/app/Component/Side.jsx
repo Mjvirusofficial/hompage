@@ -3,12 +3,13 @@
 // components/Navbar.js
 import { useState } from 'react';
 import Image from 'next/image';
+
 import Link from 'next/link';
 import lg1 from '../image/Fill-1.png'
 import lg2 from '../image/Fill-4.png'
 import lin from '../image/linkdln.png'
 import dis from '../image/d.png'
-import  './CSS/Side.css'
+import './CSS/Side.css'
 
 
 // export default Navbar;
@@ -26,7 +27,7 @@ const Navbar = () => {
     <nav className="mnav p-4">
       <div className=" container mx-auto">
         <div className="flex justify-between items-center">
-          <Link className='flex' href="/">
+          <Link className='flex ' href="/">
             {/* <p className=" font-bold text-xl">Your Logo</p> */}
             <Image alt='img' src={lg1} height={'61.81px'} width={'361px'} />
             <Image alt='img' src={lg2} height={'61.81px'} width={'361px'} />
@@ -91,33 +92,34 @@ const Navbar = () => {
               } md:flex md:space-x-4`}
           >
 
-<div class="responsivearea">
-        <div class="responsiveinner">
-            <div class="logomobile">
-                <Link href="http://vasiledesign.stepforadder.co"><img
-                        src="http://vasiledesign.stepforadder.co/wp-content/themes/vasiledesign/images/logo.png"
-                        atr="logo" /></Link>
-            </div>
-            <div class="mobiemenu ">
-                <div class="menu-menu-header-container">
-                    <ul id="menu-menu-header" class="menu">
-                        <li id="menu-item-26"
-                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><Link
-                                href="/">ABOUT</Link></li>
-                        <li id="menu-item-29"
-                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><Link
-                                href="/work">WORK</Link></li>
-                        <li id="menu-item-27"
-                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"><Link
-                                href="/award">AWARDS</Link></li>
-                        <li id="menu-item-28"
-                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><Link
-                                href="/contact">CONTACT</Link></li>
-                    </ul>
+            <div class="responsivearea  ">
+              <div class="responsiveinner ">
+                <div class="logomobile">
+                  <Link className='flex  flex justify-between items-center' href="http://vasiledesign.stepforadder.co">
+                    <Image alt='img' src={lg1} height={50} width={80} />
+                    <Image alt='img' src={lg2} height={50} width={80} />
+                  </Link>
                 </div>
+                <div class="mobiemenu ">
+                  <div class="menu-menu-header-container">
+                    <ul id="menu-menu-header" class="menu">
+                      <li id="menu-item-26"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><Link
+                          href="/">ABOUT</Link></li>
+                      <li id="menu-item-29"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><Link
+                          href="/work">WORK</Link></li>
+                      <li id="menu-item-27"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"><Link
+                          href="/award">AWARDS</Link></li>
+                      <li id="menu-item-28"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><Link
+                          href="/contact">CONTACT</Link></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
-        </div>
-    </div>
 
             {/* <Link href="/">
               <p className="text-black font-bold ">ABOUT</p>
