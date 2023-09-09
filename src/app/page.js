@@ -11,7 +11,7 @@ import Awards from './Component/Awards'
 import Contact from './Component/Contact'
 import Footer from './Component/Footer'
 import Link from 'next/link'
-import Side from './Component/Side'
+
 
 
 export const metadata = {
@@ -24,8 +24,8 @@ export default function Home() {
   return (
     <div className='mnav m-8'>
       <nav >
-      <Side/>
-        {/* <Navbar /> */}
+     
+        <Navbar />
       </nav>
 
       <div className="mt-12 intro">

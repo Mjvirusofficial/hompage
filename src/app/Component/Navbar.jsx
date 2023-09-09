@@ -90,18 +90,46 @@ const Navbar = () => {
               } md:flex md:space-x-4`}
           >
 
+<div class="responsivearea long  ">
+              <div class="responsiveinner ">
+                <div class="logomobile">
+                  <Link className='flex  flex justify-between items-center' href="/">
+                    <Image alt='img' src={lg1} height={50} width={80} />
+                    <Image alt='img' src={lg2} height={50} width={80} />
+                  </Link>
+                </div>
+                <div class="mobiemenu ">
+                  <div class="menu-menu-header-container">
+                    <ul id="menu-menu-header" class="menu">
+                      <li id="menu-item-26"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><Link
+                          href="/">ABOUT</Link></li>
+                      <li id="menu-item-29"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><Link
+                          href="/work">WORK</Link></li>
+                      <li id="menu-item-27"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"><Link
+                          href="/award">AWARDS</Link></li>
+                      <li id="menu-item-28"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><Link
+                          href="/contact">CONTACT</Link></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
 
             <Link href="/">
-              <p className="text-black font-bold ">ABOUT</p>
+              <p className="vis text-black font-bold ">ABOUT</p>
             </Link>
             <Link href="/work">
-              <p className="text-black font-bold ">WORKS</p>
+              <p className="vis text-black font-bold ">WORKS</p>
             </Link>
             <Link href="/award">
-              <p className="text-black font-bold">AWARDS</p>
+              <p className="vis text-black font-bold">AWARDS</p>
             </Link>
             <Link href="/contact">
-              <p className="text-black font-bold">CONTACT</p>
+              <p className="vis text-black font-bold">CONTACT</p>
             </Link>
           </div>
         </div>

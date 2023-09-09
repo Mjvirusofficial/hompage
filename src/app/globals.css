@@ -176,6 +176,12 @@ input {
   text-align: left;
 }
 
+@media (min-width : 560px) {
+  .long{
+    display: none;
+  }
+}
+
 @media (max-width : 560px) {
   .ld {
     visibility: hidden;
@@ -255,6 +261,10 @@ input {
 
   .mnav {
     margin: 0px;
+  }
+
+  .vis{
+    visibility: hidden;
   }
 }
 
