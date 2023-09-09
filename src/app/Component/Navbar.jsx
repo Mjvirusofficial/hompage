@@ -68,7 +68,7 @@ const Navbar = () => {
               }} className='ml-3 flex justify-between items-center' href="/">
                 <Image alt='img' src={dis} height={0.1} width={25} />
 
-                <p className="ml-3 text-black mal">Disribble</p>
+                <p className="ml-3 text-black mal">Dribbble</p>
               </Link>
             </div>
           </Link>
