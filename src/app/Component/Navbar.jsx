@@ -16,48 +16,82 @@ import dis from '../image/d.png'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [disp, setDis] = useState();
+
 
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
+    setDis('visible')
+
+    // setDis('hidden')
   };
+
+  const hide = () => {
+    setIsOpen(isOpen);
+    setDis('hidden')
+
+  }
+
+  const see = () => {
+    // setIsOpen(false);
+
+    setIsOpen(!isOpen);
+    
+  }
 
   return (
     <nav className="mnav p-4">
       <div className=" container mx-auto">
         <div className="flex justify-between items-center">
-          <Link className='flex' href="/">
+
+          <Link className=' flex' href="/">
             {/* <p className=" font-bold text-xl">Your Logo</p> */}
-            <Image alt='img' src={lg1} height={'61.81px'} width={'361px'} />
-            <Image alt='img' src={lg2} height={'61.81px'} width={'361px'} />
+            <Image style={{
+              visibility: `${disp}`
+            }} alt='img' src={lg1} height={'61.81px'} width={'361px'} />
+            <Image style={{
+              visibility: `${disp}`
+            }} alt='img' src={lg2} height={'61.81px'} width={'361px'} />
 
 
             <div className="ld ml-5 logo2 flex justify-between items-center ">
-              <Link className='ml-3 flex justify-between items-center' href="/">
+              <Link style={{
+                visibility: `${disp}`
+              }} className='ml-3 flex justify-between items-center' href="/">
                 <Image alt='img' src={lin} height={0.1} width={25} />
 
-                <p className="ml-3 text-black">Linkedln</p>
+                <p className="ml-3 text-black mal">Linkedln</p>
               </Link>
 
-              <Link className='ml-3 flex justify-between items-center' href="/">
+              <Link style={{
+                visibility: `${disp}`
+              }} className='ml-3 flex justify-between items-center' href="/">
                 <Image alt='img' src={dis} height={0.1} width={25} />
 
-                <p className="ml-3 text-black ">Disribble</p>
+                <p className="ml-3 text-black mal">Disribble</p>
               </Link>
             </div>
           </Link>
 
           <div className=" md:hidden">
             <button
-              onClick={toggleNavbar}
+              onClick={see}
               className="text-white focus:outline-none"
             >
               {isOpen ? (
+
+                <button
+              onClick={toggleNavbar}
+
+              className="text-white focus:outline-none"
+            >
                 <svg
                   className="text-black h-6 w-6 mr-6"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
+
                 >
                   <path
                     stroke-linecap="round"
@@ -66,14 +100,23 @@ const Navbar = () => {
                     d="M6 18L18 6M6 6l12 12"
                   ></path>
                 </svg>
+
+                </button>
+
               ) : (
+
+                <button
+                              onClick={hide}
+
+              className="text-white focus:outline-none"
+            >
                 <svg
-                  className="text-black h-6 w-6"
+                  className="text-black h-8 w-8"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
-                  
+
                 >
                   <path
                     stroke-linecap="round"
@@ -82,7 +125,13 @@ const Navbar = () => {
                     d="M4 6h16M4 12h16M4 18h16"
                   ></path>
                 </svg>
+</button>
+
               )}
+
+
+
+
             </button>
           </div>
           <div
@@ -90,12 +139,13 @@ const Navbar = () => {
               } md:flex md:space-x-4`}
           >
 
-<div class="responsivearea long  ">
+
+            <div class="responsivearea long mj  ">
               <div class="responsiveinner ">
-                <div class="logomobile">
+                <div class="logomobile ">
                   <Link className='flex  flex justify-between items-center' href="/">
-                    <Image alt='img' src={lg1} height={50} width={80} />
-                    <Image alt='img' src={lg2} height={50} width={80} />
+                    <Image alt='img' src={lg1} height={50} width={50} />
+                    <Image alt='img' src={lg2} height={50} width={50} />
                   </Link>
                 </div>
                 <div class="mobiemenu ">

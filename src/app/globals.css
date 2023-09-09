@@ -184,9 +184,13 @@ input {
 
 @media (max-width : 560px) {
   .ld {
-    visibility: hidden;
+    font-size: 2.5vh;
+    margin-left: -15px;
   }
 
+  .mal{
+    margin-left: 1px;
+  }
   .mpix {
     margin-top: -50px;
     font-size: 36px;
@@ -357,15 +361,22 @@ input {
   left: 0%;
 }
 
+.mj{
+  /* background-color: red !important; */
+
+}
+
 .responsivearea {
+  
   /* position: fixed; */
   top: 0;
   width: 80%;
   height: 100%;
   background-color: #f3f3f3;
-  z-index: 1000;
+  /* z-index: 1000; */
   left: -80%;
-  transition: all 0.3s ease-in;
+  transition: all 0.3s ease-out;
+  margin-left: -250px;
 }
 
 *, ::after, ::before {
