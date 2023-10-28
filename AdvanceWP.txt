@@ -1,0 +1,9 @@
+###############Usefull thing################
+1.To access any content or images from theme folder:-
+<img src='<?php bloginfo('template_url'); ?>/images/logo.webp' alt='Logo'/>
+
+2.To access Menus:-
+<?php wp_nav_menu(array('menu' => 'Main Menu')); ?>
+
+3.To access elementor template:-
+<?php echo do_shortcode('[elementor-template id="5915"]'); ?>
