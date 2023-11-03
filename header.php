@@ -56,6 +56,37 @@
 
 <body <?php body_class(); ?>>
 
+<div class="mobulemenuarea_wrap">
+    <div class="mobulemenuarea_wrap_overlay"></div>
+	<div class="mobulemenuarea_wrap_in">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12">
+					<div class="float-start w-100">
+						<div class="logomob float-start">
+							<!-- <a href="<?php bloginfo('url'); ?>">
+								<img src='<?php bloginfo('template_url'); ?>/images/logo.webp' alt='Logo'/>
+							</a> -->
+						</div>
+						<div class="closemenu float-end">
+							<i class="fa fa-times mclmenu"></i>
+						</div>
+					</div>
+					<div class="mobilemenulinks">
+						<?php wp_nav_menu(array('menu' => 'Main Menu')); ?>
+					</div>
+					<div class="overlaycontainer">
+						<div class="megamenu_wrap">
+							<div class="megamenuitem_wrap" data-item="services">
+								<?php echo do_shortcode('[elementor-template id="5853"]'); ?>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
 <header class='header' id='header'>
 	<div class="headertop">
@@ -77,57 +108,54 @@
 				</a>
 			</div>
 
-				<!-- <button class='demo'>hello</button> -->
-
 				<!-- Menu -->
-				<div class="menuarea">
+			<div class="menuarea">
+				<div class="dmenu">
 					<div class="desktopmenu">
 						<?php wp_nav_menu(array('menu' => 'Main Menu')); ?>
 					</div>
-					<div class="mobilemenuicon">
-						<i class="fa fa-bars"></i>
-					</div>
+				</div>
+
+				<div class="mobilemenuicon">
+					<i class="fa fa-bars"></i>
 				</div>
 
 				<!-- Contact Button -->
 				<div class="contactbtn">
 					<a href="<?php bloginfo('url'); ?>/contact-us">Contact Us <i class="fa fa-arrow-right"></i></a>
 				</div>
-			    </div>
+			</div>
 
-				<!-- Services Mega Menu -->
-
-		<div class="overlaycontainer">
-			<div class="megamenu_wrap">
-				<div class="megamenuitem_wrap" data-item="services">
+			<!-- Services Mega Menu -->
+			<div class="overlaycontainer">
+				<div class="megamenu_wrap">
+					<div class="megamenuitem_wrap" data-item="services">
 						<?php echo do_shortcode('[elementor-template id="5853"]'); ?>
 					</div>
 				</div>
 			</div>
-		</div>
 
-<!-- Packages Mega Menu -->
+			<!-- Packages Mega Menu -->
 
-
-		<div class="overlaycontainer">
-			<div class="megamenu_wrap">
-				<div class="megamenuitem_wrap" data-item="pack">
+			<div class="overlaycontainer">
+				<div class="megamenu_wrap packmenu">
+					<div class="megamenuitem_wrap" data-item="pack">
 						<?php echo do_shortcode('[elementor-template id="5900"]'); ?>
+					</div>
+				</div>
+			</div>
+	
+			<!-- Our Work Mega Menu -->
+
+			<div class="overlaycontainer">
+				<div class="megamenu_wrap">
+					<div class="megamenuitem_wrap" data-item="work">
+						<?php echo do_shortcode('[elementor-template id="5915"]'); ?>
+					</div>
 				</div>
 			</div>
 		</div>
-		
-
-<!-- Our Work Mega Menu -->
-
-		<div class="overlaycontainer">
-			<div class="megamenu_wrap">
-				<div class="megamenuitem_wrap" data-item="work">
-					<?php echo do_shortcode('[elementor-template id="5915"]'); ?>
-				</div>
-			</div>
-		</div>
-
+	</div>
 </header>
 
 

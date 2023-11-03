@@ -37,13 +37,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <footer>
        
-	<div class="footer-column">
+	<div class="footer-column fstcol">
                 	<a href="<?php bloginfo('url'); ?>">
 						<img class='logoimg2' src="<?php bloginfo('template_url'); ?>/images/logo.webp" alt="Logo"/>
 				   </a>
 
 			<div class="">
-			<p class='fpara'>Create a website that works</p>
+			<p class='fpara'>Create A Website That Works</p>
 			</div>
 
 			<div class="fsvg-layout">
@@ -74,7 +74,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<div class="flayout">
 			<p class='fhead'>Menu</p>
 
-			<div class="">
+			<div class="small-menus">
 				<div ><a class='fp' href="">About</a></div>
 				<div ><a class='fp' href="">Our work</a></div>
 				<div ><a class='fp' href="">Packages</a></div>
@@ -197,8 +197,17 @@ B, Sector 62, Noida, Uttar Pradesh</div>
 jQuery(document).ready(function(){
 
 
-    var downarrow = "<svg class='downarrow' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' viewBox='0 0 64 80' enable-background='new 0 0 64 64' xml:space='preserve'><g><polyline fill='none' stroke='#000000' stroke-width='5' stroke-linejoin='bevel' stroke-miterlimit='10' points='15,24 32,41 49,24'/></g></svg>";
-	var uparrow = "<svg class='uparrow' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' viewBox='0 0 64 80' enable-background='new 0 0 64 64' xml:space='preserve'><g><polyline fill='none' stroke='#000000' stroke-width='5' stroke-linejoin='bevel' stroke-miterlimit='10' points='15,41 32,24 49,41'/></g></svg>";
+// Header:- JavaScript to toggle the mobile menu
+	jQuery(".mobilemenuicon").click(function(){
+		jQuery(".mobulemenuarea_wrap").addClass("in");
+	});
+
+	jQuery(".closemenu").click(function(){
+		jQuery(".mobulemenuarea_wrap").removeClass("in");
+	});
+
+    var downarrow = "<svg class='downarrow' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' viewBox='0 0 50 50' enable-background='new 0 0 64 64' xml:space='preserve'><g><polyline fill='none' stroke='#000000' stroke-width='5' stroke-linejoin='bevel' stroke-miterlimit='10' points='15,24 32,41 49,24'/></g></svg>";
+	var uparrow = "<svg class='uparrow' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' viewBox='0 0 50 50' enable-background='new 0 0 64 64' xml:space='preserve'><g><polyline fill='none' stroke='#000000' stroke-width='5' stroke-linejoin='bevel' stroke-miterlimit='10' points='15,41 32,24 49,41'/></g></svg>";
 
 	jQuery(".hassubmenu > a").append(downarrow);
 	var menucontent = jQuery(".megamenuitem_wrap[data-item='services']").html();
@@ -222,8 +231,7 @@ jQuery(document).ready(function(){
 
 	});
 
-
-
+	
 	// Packages
 
 	jQuery(".desktopmenu ul li.pack").hoverIntent(function(){
@@ -252,6 +260,77 @@ jQuery(document).ready(function(){
 
 	});
 
+
+	var mobileServices = jQuery(".megamenuitem_wrap[data-item='services']").html();
+	jQuery(".mobilemenulinks ul li.services a").after("<div class='overlaymcontainer'><div class='megamenu_wrap'>"+mobileServices+"</div></div>");
+
+
+	// Mobile services
+	jQuery(".mobilemenulinks ul li.services").hoverIntent(function(){
+		jQuery(this).find(".overlaymcontainer").addClass("in");
+		jQuery(this).find(".downarrow").remove()
+		jQuery(this).find("> a").append(uparrow);
+	}, function(){
+		jQuery(this).find(".overlaymcontainer").removeClass("in");
+		jQuery(this).find(".uparrow").remove()
+		jQuery(this).find("> a").append(downarrow);
+
+	});
+
+		// Mobile Packages
+	jQuery(".mobilemenulinks ul li.pack").hoverIntent(function(){
+		jQuery(this).find(".overlaymcontainer").addClass("in");
+		jQuery(this).find(".sub-menu").addClass("in");
+		jQuery(this).find(".downarrow").remove()
+		jQuery(this).find("> a").append(uparrow);
+	}, function(){
+		jQuery(this).find(".overlaymcontainer").removeClass("in");
+		jQuery(this).find(".uparrow").remove()
+		jQuery(this).find("> a").append(downarrow);
+		jQuery(this).find(".sub-menu").removeClass("in");
+	});
+
+		// Mobile Our Work
+	jQuery(".mobilemenulinks ul li.work").hoverIntent(function(){
+		jQuery(this).find(".overlaymcontainer").addClass("in");
+		jQuery(this).find(".sub-menu").addClass("in");
+		jQuery(this).find(".downarrow").remove()
+		jQuery(this).find("> a").append(uparrow);
+	}, function(){
+		jQuery(this).find(".overlaymcontainer").removeClass("in");
+		jQuery(this).find(".sub-menu").removeClass("in");
+		jQuery(this).find(".uparrow").remove()
+		jQuery(this).find("> a").append(downarrow);
+
+	});
+
+
+	// jQuery(".mobilemenulinks ul li.work").click(function(){
+	// 	jQuery(this).find(".overlaymcontainer").addClass("in");
+	// 	jQuery(this).find(".sub-menu").addClass("in");
+	// }, function(){
+	// 	jQuery(this).find(".overlaymcontainer").removeClass("in");
+	// 	jQuery(this).find(".sub-menu").removeClass("in");
+	// })
+
+	// jQuery(".downarrow").click(function(){
+	// 	jQuery(".sub-menu").addClass("in");
+	// });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	const swiper = new Swiper('.testmonial_slider .swiper', {});
 	jQuery(".movenext").click(function(){
 		swiper.slideNext(500, function(){});
@@ -260,6 +339,9 @@ jQuery(document).ready(function(){
 	jQuery(".moveprev").click(function(){
 		swiper.slidePrev(500, function(){});
 	});
+
+
+
 
 	});
 </script>
