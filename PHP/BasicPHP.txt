@@ -1,0 +1,3 @@
+PHP:-
+PHP stands for "Hypertext Preprocessor," although it originally stood for "Personal Home Page." PHP is a popular server-side scripting language used for web development. In easy words, PHP is a tool that web developers use to create dynamic and interactive websites.
+

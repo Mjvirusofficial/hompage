@@ -1,0 +1,48 @@
+body a {
+    text-decoration: none;
+    color: black;
+    font-family: Poppins;
+
+}
+
+.topheader{
+    background-color: #3C1518;
+    color: white;
+    text-align: right;
+}
+
+.topheader a{
+    color: white;
+    /* margin-right: 10px; */
+
+}
+
+.headermenu a {
+    margin: 0 10px 0 30px;
+    font-family: Poppins !important;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+
+.contact{
+    background-color: #FE445C;
+    color: #fff;
+    font-size: 18px;
+    font-family: Poppins !important;
+    font-weight: 500;
+    line-height: 27px;
+    display: inline-block;
+    padding: 10px 15px 10px 10px;
+    text-decoration: none;
+    border: 0px solid #FE445C;
+    letter-spacing: 0.1em;
+}
+
+
+.contact a{
+    color: white;
+}
+

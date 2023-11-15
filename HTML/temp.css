@@ -1,0 +1,288 @@
+.mobulemenuarea_wrap {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: -100%;
+    transition: all 0.3s linear;
+    height: 100%;
+    background-color: transparent;
+    z-index: 11;
+}
+
+.mobulemenuarea_wrap_in {
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    overflow-y: auto;
+    position: relative;
+    z-index: 5;
+    padding: 30px 15px;
+    overflow-x: hidden;
+}
+
+.mobulemenuarea_wrap_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 4;
+}
+
+.mobulemenuarea_wrap.in {
+    left: 0;
+}
+
+.closemenu {
+    text-align: right;
+    font-size: 58px;
+    cursor: pointer;
+}
+
+.mobilemenulinks {
+    width: auto;
+    margin-top: 47px;
+}
+
+/* .mobilemenu{display:none;float:right;font-size:27px;cursor:pointer;margin:-7px 5px 0 0;} */
+.logomob {
+    margin-left: -5px;
+    float: left;
+    width: auto;
+    font-family: verdana;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* .logomob a{color:#000000;text-decoration:none;} */
+/* .logomob a span{color:rgb(45, 48, 53);margin:0 6px 0 0;} */
+.mobilemenulinks .menu {
+    float: left;
+    width: auto;
+    padding: 0;
+    margin: 6px 0;
+}
+
+.mobilemenulinks .menu li {
+    list-style: none;
+    width: auto;
+    margin: 0 30px 0 0;
+    padding: 0 0 10px 0;
+    float: left;
+    width: 100%;
+    display: flex;
+}
+
+.mobilemenulinks .menu li:last-child {
+    margin: 0;
+}
+
+.mobilemenulinks .menu li a {
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 100px;
+    color: rgb(45, 48, 53);
+    float: left;
+    width: 100%;
+}
+
+.mobilemenulinks .menu li.current-menu-item a {
+    color: black;
+}
+
+/* .mobilemenulinks .menu li a:hover{color:#00bfff;} */
+.mclmenu {
+    margin-right: 23px;
+    border: 2px solid;
+    padding: 4px;
+    border-radius: 9px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.mclmenu:hover {
+    color: #FE445C;
+}
+
+.mobilemenulinks .menu li a:hover {
+    color: #FE445C;
+}
+
+.mobilemenulinks .menu li a:hover svg polyline {
+    stroke: #FE445C;
+}
+
+/* .sub-menu{visibility: hidden;margin-left: 0px;margin-top: 10px;} */
+.sub-menu {
+    display: none;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+.sub-menu.in {
+    visibility: visible;
+}
+
+
+/* mobile */
+
+.headertop {
+    background-color: #3C1518;
+    text-align: center;
+    width: 100%;
+    margin-top: 0;
+    display: flex;
+    display: none;
+}
+
+.contactbtn {
+    display: none;
+}
+
+.headerbottom {
+    width: 100%;
+
+}
+
+.headerinner {
+    padding: 0px 0;
+}
+
+.header .logo {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.header .logo a {
+    width: auto;
+}
+
+.header .logo a img {
+    /* height: auto;
+  width: 100%; */
+    display: block;
+    margin: 0 auto;
+    height: 60px;
+    width: auto;
+    float: left;
+    margin-left: 10px;
+    margin-top: -15px;
+}
+
+.desktopmenu {
+    visibility: hidden;
+    /* background-color: white; */
+}
+
+.desktopmenu.in {
+    visibility: visible;
+    /* background-color: white; */
+    margin-top: 36px;
+}
+
+.mobilemenuicon {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    border: 1px solid #5c5959;
+    background-color: white;
+    padding: 6px;
+    padding-left: 17px;
+    padding-right: 17px;
+    border-radius: 4px;
+    color: #5c5959;
+}
+
+.menuarea {
+    float: none;
+    /* Remove float for mobile */
+    width: auto;
+    padding: 10px 0;
+    /* Adjust padding for mobile */
+    background-color: white;
+    /* Set background color to white for mobile */
+    text-align: left;
+    /* Set text alignment to left for mobile */
+}
+
+.desktopmenu .menu>li {
+    list-style: none;
+    display: inline-block;
+    width: auto;
+    height: 50px;
+}
+
+.desktopmenu .menu>li {
+    display: block;
+    /* Display menu items in a list for mobile */
+}
+
+.desktopmenu .menu li a {
+    font-size: 16px;
+    /* Reduce font size for mobile */
+}
+
+.desktopmenu .menu li a:hover {
+    color: #FE445C;
+}
+
+.desktopmenu .menu li a:hover svg polyline {
+    stroke: #FE445C;
+}
+
+
+.dmenu.in {
+    padding-top: 150px;
+}
+
+.menuarea.in {
+    background-color: rgb(247, 247, 247);
+    text-align: left;
+    position: relative;
+    transition-timing-function: ease;
+    transition-duration: 2s;
+    width: 90%;
+    height: 800vh;
+    box-shadow: 0 0 0 100px rgba(0, 0, 0, 0.5);
+}
+
+.mobilemenuicon:hover {
+    color: #FE445C;
+    border: 1px solid #FE445C;
+}
+
+/* .pmenu{
+
+}
+
+.wmenu{
+
+} */
+
+.hassubmenu a>svg {
+    width: 92px;
+    margin: 29px 11px 0 0;
+    border: 1px solid;
+    border-radius: 117px;
+    padding-left: 21px;
+    padding-right: 34px;
+    margin-bottom: 10px;
+    margin-bottom: 8;
+    padding-bottom: 5px;
+    float: right;
+    text-align: center;
+}
+
+.hassubmenu a>svg:hover {
+    color: #FE445C;
+}
+
+.downarrow:hover {
+    color: #FE445C;
+}

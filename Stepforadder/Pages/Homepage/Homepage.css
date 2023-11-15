@@ -1,0 +1,141 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 50px 0 50px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.row .col a {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    margin: 15px;
+}
+
+.hbtn {
+    background: #FE445C;
+    width: 200px;
+    height: 60px;
+    top: 2px;
+    left: 1527px;
+    border: 0px solid #FE445C;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+
+.headerTop {
+    background: #3C1518;
+    color: white;
+}
+
+.headerBanner {
+    margin: 0 50px 0 50px;
+    display: flex;
+    justify-content: end;
+}
+
+.htpara {
+    margin-left: 5px;
+    color: white;
+}
+
+
+
+/* section1 */
+
+.section1 {
+    margin: 0 50px 0 50px;
+    display: flex;
+
+}
+
+.s1btn {
+
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.14em;
+    text-align: center;
+    background-color: #FE445C;
+    border: 0px solid #FE445C;
+    color: white;
+    margin-top: 80px;
+}
+
+.s1heading {
+    width: 508px;
+    height: 268px;
+    top: 249px;
+    left: 96px;
+
+    margin-top: 10px;
+    font-family: Poppins;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 73px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.s1para {
+    width: 460px;
+    height: 118px;
+    left: 96px;
+
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #5B5B5C;
+    margin-top: -60px;
+
+}
+
+.s1btn2 {
+    width: 200px;
+    height: 60px;
+    top: 647px;
+    left: 97px;
+
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: #FE445C;
+    border: 0px solid #FE445C;
+    color: white;
+}
+
+.s1col2 {
+    width: 1274px;
+    height: 850px;
+    top: 115px;
+    left: 785px;
+    background-image: url('../../image/brooke-cagle-g1Kr4Ozfoac-unsplash\ 1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left:  80px;
+}
